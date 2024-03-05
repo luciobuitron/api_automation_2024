@@ -1,0 +1,6 @@
+{
+  "error" : {
+    "status" : 403,
+    "message" : "This request requires user authentication."
+  }
+}
