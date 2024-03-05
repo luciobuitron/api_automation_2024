@@ -1,0 +1,58 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0* Could not resolve host: GET
+* Closing connection 0
+curl: (6) Could not resolve host: GET
+*   Trying 35.186.224.25:443...
+* Connected to api.spotify.com (35.186.224.25) port 443 (#1)
+* schannel: disabled automatic use of client certificate
+* ALPN: offers http/1.1
+* ALPN: server accepted http/1.1
+> GET /v1/users/taquimon HTTP/1.1
+> Host: api.spotify.com
+> User-Agent: curl/7.83.1
+> Accept: */*
+> Authorization: Bearer BQB8CyJAC-Dqq79o-CgJ2i-Yi31vuXv3O_fPH9gO8uMZ1bwBq0CyvtwNv_eX0h_IMuM15tBbNHj_CwAl-GKGUYq2Awhco7zda-IJZSR3EwqbElsMwXw
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< content-type: application/json; charset=utf-8
+< cache-control: public, max-age=14400
+< x-robots-tag: noindex, nofollow
+< access-control-allow-origin: *
+< access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+< access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+< access-control-allow-credentials: true
+< access-control-max-age: 604800
+< Content-Length: 588
+< strict-transport-security: max-age=31536000
+< x-content-type-options: nosniff
+< vary: Accept-Encoding
+< date: Tue, 05 Mar 2024 03:12:11 GMT
+< server: envoy
+< Via: HTTP/2 edgeproxy, 1.1 google
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+<
+{
+  "display_name" : "Edwin Taquichiri Montaño",
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/user/taquimon"
+  },
+  "href" : "https://api.spotify.com/v1/users/taquimon",
+  "id" : "taquimon",
+  "images" : [ {
+    "url" : "https://i.scdn.co/image/ab67757000003b82121316fa310b58f70b74f52c",
+    "height" : 64,
+    "width" : 64
+  }, {
+    "url" : "https://i.scdn.co/image/ab6775700000ee85121316fa310b58f70b74f52c",
+    "height" : 300,
+    "width" : 300
+  } ],
+  "type" : "user",
+  "uri" : "spotify:user:taquimon",
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  }
+}* Connection #1 to host api.spotify.com left intact
