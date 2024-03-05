@@ -1,0 +1,808 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0* Could not resolve host: GET
+* Closing connection 0
+curl: (6) Could not resolve host: GET
+*   Trying 35.186.224.25:443...
+* Connected to api.spotify.com (35.186.224.25) port 443 (#1)
+* schannel: disabled automatic use of client certificate
+* ALPN: offers http/1.1
+* ALPN: server accepted http/1.1
+> GET /v1/users/taquimon/playlists HTTP/1.1
+> Host: api.spotify.com
+> User-Agent: curl/7.83.1
+> Accept: */*
+> Authorization: Bearer BQB8CyJAC-Dqq79o-CgJ2i-Yi31vuXv3O_fPH9gO8uMZ1bwBq0CyvtwNv_eX0h_IMuM15tBbNHj_CwAl-GKGUYq2Awhco7zda-IJZSR3EwqbElsMwXw
+>
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< content-type: application/json; charset=utf-8
+< cache-control: public, max-age=0
+< etag: "MC-Ijg0NzZiNWQ4YTA3MWZmNWUyNDQzYzFkMWVlODVjNjY5Ig=="
+< x-robots-tag: noindex, nofollow
+< access-control-allow-origin: *
+< access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+< access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+< access-control-allow-credentials: true
+< access-control-max-age: 604800
+< Content-Length: 32097
+< strict-transport-security: max-age=31536000
+< x-content-type-options: nosniff
+< vary: Accept-Encoding
+< date: Tue, 05 Mar 2024 03:29:06 GMT
+< server: envoy
+< Via: HTTP/2 edgeproxy, 1.1 google
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+<
+{
+  "href" : "https://api.spotify.com/v1/users/taquimon/playlists?offset=0&limit=20",
+  "items" : [ {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/6jFgtJVBiuUAggX1iagHLs"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/6jFgtJVBiuUAggX1iagHLs",
+    "id" : "6jFgtJVBiuUAggX1iagHLs",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b27343eb9bfd8bfb987af6e852e1",
+      "width" : 640
+    } ],
+    "name" : "Dance",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NSwyOTJlNTMzMDIwZDUxYmJmZDA5MzZjZDFmNWMyZGNiZDFiZTk4Mzlk",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/6jFgtJVBiuUAggX1iagHLs/tracks",
+      "total" : 3
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:6jFgtJVBiuUAggX1iagHLs"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0m06t32GNlD609Gi6lKITE"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0m06t32GNlD609Gi6lKITE",
+    "id" : "0m06t32GNlD609Gi6lKITE",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2730cb7774b716c3866380e2038ab67616d0000b2735d13914629864e57112f8d3dab67616d0000b2739505a06e82c83cce3238f357ab67616d0000b273fedc247c3382f15de5f0bbed",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2730cb7774b716c3866380e2038ab67616d0000b2735d13914629864e57112f8d3dab67616d0000b2739505a06e82c83cce3238f357ab67616d0000b273fedc247c3382f15de5f0bbed",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2730cb7774b716c3866380e2038ab67616d0000b2735d13914629864e57112f8d3dab67616d0000b2739505a06e82c83cce3238f357ab67616d0000b273fedc247c3382f15de5f0bbed",
+      "width" : 60
+    } ],
+    "name" : "nacional no folk",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "OSwzZTU4MGEzNTA4MjA4ZTRhNjc1YjQwNGVkMGU4MzM0YjJkMjc5ZWRk",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0m06t32GNlD609Gi6lKITE/tracks",
+      "total" : 5
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0m06t32GNlD609Gi6lKITE"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/4IgpLOBWjh7L42huyeuvcy"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/4IgpLOBWjh7L42huyeuvcy",
+    "id" : "4IgpLOBWjh7L42huyeuvcy",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2734601b5466b94e7358df7f4dfab67616d0000b27347a69991d05f42d80594a61fab67616d0000b27361d4a865e8aa93e7f0a7e7a7ab67616d0000b27363d999101913ceee620e8a8e",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2734601b5466b94e7358df7f4dfab67616d0000b27347a69991d05f42d80594a61fab67616d0000b27361d4a865e8aa93e7f0a7e7a7ab67616d0000b27363d999101913ceee620e8a8e",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2734601b5466b94e7358df7f4dfab67616d0000b27347a69991d05f42d80594a61fab67616d0000b27361d4a865e8aa93e7f0a7e7a7ab67616d0000b27363d999101913ceee620e8a8e",
+      "width" : 60
+    } ],
+    "name" : "one hit wonder",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTcsMDRhNzFlM2NmNjg3MTU0OWRlMmM2MzMzOGRhYTcwZWRkMGNjMDdhYg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/4IgpLOBWjh7L42huyeuvcy/tracks",
+      "total" : 13
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:4IgpLOBWjh7L42huyeuvcy"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/32NyDCTTReuiLXBiF1ib9I"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/32NyDCTTReuiLXBiF1ib9I",
+    "id" : "32NyDCTTReuiLXBiF1ib9I",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27308a1b1e0674086d3f1995e1bab67616d0000b27319d85a472f328a6ed9b704cfab67616d0000b273da4f6706ae0f2501c61ce776ab67616d0000b273db89b08034de626ebee6823d",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27308a1b1e0674086d3f1995e1bab67616d0000b27319d85a472f328a6ed9b704cfab67616d0000b273da4f6706ae0f2501c61ce776ab67616d0000b273db89b08034de626ebee6823d",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27308a1b1e0674086d3f1995e1bab67616d0000b27319d85a472f328a6ed9b704cfab67616d0000b273da4f6706ae0f2501c61ce776ab67616d0000b273db89b08034de626ebee6823d",
+      "width" : 60
+    } ],
+    "name" : "2000",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "OCxjNjUxYjJlOWMwZGE5YWNmODRjNjFmN2FiZGVkZjgxYTllNDVkMzc1",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/32NyDCTTReuiLXBiF1ib9I/tracks",
+      "total" : 6
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:32NyDCTTReuiLXBiF1ib9I"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/62L6ITiP7MzH09IloBxiXd"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/62L6ITiP7MzH09IloBxiXd",
+    "id" : "62L6ITiP7MzH09IloBxiXd",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273275c384b294918ae918dbee9ab67616d0000b2733236b9c08b319f7e50e74f53ab67616d0000b273b68800f76fc1886a3415dcb1ab67616d0000b273c7d7cdad0c2ffa5620129ee8",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273275c384b294918ae918dbee9ab67616d0000b2733236b9c08b319f7e50e74f53ab67616d0000b273b68800f76fc1886a3415dcb1ab67616d0000b273c7d7cdad0c2ffa5620129ee8",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273275c384b294918ae918dbee9ab67616d0000b2733236b9c08b319f7e50e74f53ab67616d0000b273b68800f76fc1886a3415dcb1ab67616d0000b273c7d7cdad0c2ffa5620129ee8",
+      "width" : 60
+    } ],
+    "name" : "80-90",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MjgsZTBlOTczYWE0ZTlkNTRjNmFjZjZlOGNkMGQ5NjQ1NmU4NGRkZTBhZA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/62L6ITiP7MzH09IloBxiXd/tracks",
+      "total" : 24
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:62L6ITiP7MzH09IloBxiXd"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/39Z2UcBJTvmGYHsdjiz1iI"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/39Z2UcBJTvmGYHsdjiz1iI",
+    "id" : "39Z2UcBJTvmGYHsdjiz1iI",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2735cfd8fdbf367d6e19682e3b1ab67616d0000b273babc316586b9a08de524c836ab67616d0000b273cd608cb01e8b859acc855150ab67616d0000b273f5de45fa6299cc3106152d27",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2735cfd8fdbf367d6e19682e3b1ab67616d0000b273babc316586b9a08de524c836ab67616d0000b273cd608cb01e8b859acc855150ab67616d0000b273f5de45fa6299cc3106152d27",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2735cfd8fdbf367d6e19682e3b1ab67616d0000b273babc316586b9a08de524c836ab67616d0000b273cd608cb01e8b859acc855150ab67616d0000b273f5de45fa6299cc3106152d27",
+      "width" : 60
+    } ],
+    "name" : "romantic",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTYsMmQ4ZjE4ZTdmY2U4NWQ1NDNiYmYyZGU4Y2RhMmE1NGMxMWRhNTIzMQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/39Z2UcBJTvmGYHsdjiz1iI/tracks",
+      "total" : 15
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:39Z2UcBJTvmGYHsdjiz1iI"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/1X3OJw4lnumZTvAUfPDApK"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/1X3OJw4lnumZTvAUfPDApK",
+    "id" : "1X3OJw4lnumZTvAUfPDApK",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273592f165ca76f43fb045a489fab67616d0000b2739c8d729f39d099f506830c40ab67616d0000b273be689ad41084ae5dff58e491ab67616d0000b273e646fcd49b6dfc91d1dba2ae",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273592f165ca76f43fb045a489fab67616d0000b2739c8d729f39d099f506830c40ab67616d0000b273be689ad41084ae5dff58e491ab67616d0000b273e646fcd49b6dfc91d1dba2ae",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273592f165ca76f43fb045a489fab67616d0000b2739c8d729f39d099f506830c40ab67616d0000b273be689ad41084ae5dff58e491ab67616d0000b273e646fcd49b6dfc91d1dba2ae",
+      "width" : 60
+    } ],
+    "name" : "salsa",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MzEsMWEzOWNkMTNhNjNhZmU1NTEyNTcwNWZhYWNiOGI5M2VmNTc2NDc4Zg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/1X3OJw4lnumZTvAUfPDApK/tracks",
+      "total" : 29
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:1X3OJw4lnumZTvAUfPDApK"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/7FOM77PcBT3FMj1wQXDfZL"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/7FOM77PcBT3FMj1wQXDfZL",
+    "id" : "7FOM77PcBT3FMj1wQXDfZL",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2732823a4b31d36766bacbaefe0ab67616d0000b27331b0625d05416daf25b4cac7ab67616d0000b27359ff3e65ac078d976f6d407eab67616d0000b273d98eeefd867380712c4dd4db",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2732823a4b31d36766bacbaefe0ab67616d0000b27331b0625d05416daf25b4cac7ab67616d0000b27359ff3e65ac078d976f6d407eab67616d0000b273d98eeefd867380712c4dd4db",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2732823a4b31d36766bacbaefe0ab67616d0000b27331b0625d05416daf25b4cac7ab67616d0000b27359ff3e65ac078d976f6d407eab67616d0000b273d98eeefd867380712c4dd4db",
+      "width" : 60
+    } ],
+    "name" : "Nacional",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "ODMsMWIzZWE5ZWFhY2ZkYzgwNjEzNzg1ZjYzNjIyZWMyMDc3NTQxMTBjNg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/7FOM77PcBT3FMj1wQXDfZL/tracks",
+      "total" : 81
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:7FOM77PcBT3FMj1wQXDfZL"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/357A7tWbBqGpMwdC0vySfB"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/357A7tWbBqGpMwdC0vySfB",
+    "id" : "357A7tWbBqGpMwdC0vySfB",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://i.scdn.co/image/ab67616d0000b273c78a02e0ca600646cc776007",
+      "width" : 640
+    } ],
+    "name" : "rancheras",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NSwwZGIyYmE4YjY1YzIwNTkwMDVmM2VjYjJhZGU2MDRkYjQxNWQ3ZmYz",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/357A7tWbBqGpMwdC0vySfB/tracks",
+      "total" : 4
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:357A7tWbBqGpMwdC0vySfB"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/3QOfeUlbFmKStC2I3NLweC"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/3QOfeUlbFmKStC2I3NLweC",
+    "id" : "3QOfeUlbFmKStC2I3NLweC",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273096a7fc9668305db9d3175fcab67616d0000b273894ae4df775c6b47438991afab67616d0000b27389c9590c941cec56429f2456ab67616d0000b273ddf2f9edabd166c60047e3c4",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273096a7fc9668305db9d3175fcab67616d0000b273894ae4df775c6b47438991afab67616d0000b27389c9590c941cec56429f2456ab67616d0000b273ddf2f9edabd166c60047e3c4",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273096a7fc9668305db9d3175fcab67616d0000b273894ae4df775c6b47438991afab67616d0000b27389c9590c941cec56429f2456ab67616d0000b273ddf2f9edabd166c60047e3c4",
+      "width" : 60
+    } ],
+    "name" : "R&B",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTMsNWE5MTQzYjJmNTVlZWQ3NWFmNDNkYzdmNTgwZmMyYWQ5N2FkMGM0Ng==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/3QOfeUlbFmKStC2I3NLweC/tracks",
+      "total" : 11
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:3QOfeUlbFmKStC2I3NLweC"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/5HBIkVV4uzmFj2wHLCSILW"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/5HBIkVV4uzmFj2wHLCSILW",
+    "id" : "5HBIkVV4uzmFj2wHLCSILW",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27362a057c2463c7e66c45bd479ab67616d0000b2736f1867a9fbf5e9732bff9448ab67616d0000b2737e70ac04d7e5ca8d4fd788a4ab67616d0000b27388eb37784eee4c3651807406",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27362a057c2463c7e66c45bd479ab67616d0000b2736f1867a9fbf5e9732bff9448ab67616d0000b2737e70ac04d7e5ca8d4fd788a4ab67616d0000b27388eb37784eee4c3651807406",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27362a057c2463c7e66c45bd479ab67616d0000b2736f1867a9fbf5e9732bff9448ab67616d0000b2737e70ac04d7e5ca8d4fd788a4ab67616d0000b27388eb37784eee4c3651807406",
+      "width" : 60
+    } ],
+    "name" : "sinfonica",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MjIsYmExYWVkNjg5MmQyMTQ4ZTU1MWMyNjgwMTdhN2Y2OGVmZWIzOGNhNQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/5HBIkVV4uzmFj2wHLCSILW/tracks",
+      "total" : 20
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:5HBIkVV4uzmFj2wHLCSILW"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/6FT2IrGJB5nQKyL0owwwF9"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/6FT2IrGJB5nQKyL0owwwF9",
+    "id" : "6FT2IrGJB5nQKyL0owwwF9",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27309a8db435a4667425ab7e918ab67616d0000b2731507d322b86de7f01c22131bab67616d0000b27323d18d1faa395db1f4a5ff06ab67616d0000b273c2c055d565b73a6483fff04e",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27309a8db435a4667425ab7e918ab67616d0000b2731507d322b86de7f01c22131bab67616d0000b27323d18d1faa395db1f4a5ff06ab67616d0000b273c2c055d565b73a6483fff04e",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27309a8db435a4667425ab7e918ab67616d0000b2731507d322b86de7f01c22131bab67616d0000b27323d18d1faa395db1f4a5ff06ab67616d0000b273c2c055d565b73a6483fff04e",
+      "width" : 60
+    } ],
+    "name" : "spanish",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MjYsNjJmMWM1OGM2YWU1YjFiZjBiMTJhMjg2ZjRlOGUyM2YzMmEzNmJlOA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/6FT2IrGJB5nQKyL0owwwF9/tracks",
+      "total" : 20
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:6FT2IrGJB5nQKyL0owwwF9"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0OmDqpIPgufJah4icPtiok"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0OmDqpIPgufJah4icPtiok",
+    "id" : "0OmDqpIPgufJah4icPtiok",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2730967c22c1838bae61c361dd1ab67616d0000b273419f4a6c6c18ca90453147b2ab67616d0000b27366358246e91dfa368a77cd25ab67616d0000b2738d1bef7adf6e972a683d2ed1",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2730967c22c1838bae61c361dd1ab67616d0000b273419f4a6c6c18ca90453147b2ab67616d0000b27366358246e91dfa368a77cd25ab67616d0000b2738d1bef7adf6e972a683d2ed1",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2730967c22c1838bae61c361dd1ab67616d0000b273419f4a6c6c18ca90453147b2ab67616d0000b27366358246e91dfa368a77cd25ab67616d0000b2738d1bef7adf6e972a683d2ed1",
+      "width" : 60
+    } ],
+    "name" : "spanish antiguo",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NjksYTU1YzQ2YzEwMGU0OTZlOTE2NDgzNDQ1OTNhN2M3YzNmZDY5OGM2Yw==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0OmDqpIPgufJah4icPtiok/tracks",
+      "total" : 64
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0OmDqpIPgufJah4icPtiok"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/6aQQhNlbz7iHXBw0w8lFoD"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/6aQQhNlbz7iHXBw0w8lFoD",
+    "id" : "6aQQhNlbz7iHXBw0w8lFoD",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273072ee11a51e23f861c54cef9ab67616d0000b273086f018924ca604bebc21e9aab67616d0000b273db687db0afb257abdee10816ab67616d0000b273e12b7b5e399b25b70d82c186",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273072ee11a51e23f861c54cef9ab67616d0000b273086f018924ca604bebc21e9aab67616d0000b273db687db0afb257abdee10816ab67616d0000b273e12b7b5e399b25b70d82c186",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273072ee11a51e23f861c54cef9ab67616d0000b273086f018924ca604bebc21e9aab67616d0000b273db687db0afb257abdee10816ab67616d0000b273e12b7b5e399b25b70d82c186",
+      "width" : 60
+    } ],
+    "name" : "good rock",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MjAsNzRhZjI2MzUyNGQ4N2M0MzY2YzI2NzEyYWEyMzc2NWJhMDlhN2I4Zg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/6aQQhNlbz7iHXBw0w8lFoD/tracks",
+      "total" : 19
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:6aQQhNlbz7iHXBw0w8lFoD"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0rQ1EjIYqDr2crdFV3udHU"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0rQ1EjIYqDr2crdFV3udHU",
+    "id" : "0rQ1EjIYqDr2crdFV3udHU",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2731e0dc5baaabda304b0ad1815ab67616d0000b273436e38032cf3389d01426ecaab67616d0000b2735140e9c2486249b280cb36fbab67616d0000b273e73b1b6b3c3c25398303334f",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2731e0dc5baaabda304b0ad1815ab67616d0000b273436e38032cf3389d01426ecaab67616d0000b2735140e9c2486249b280cb36fbab67616d0000b273e73b1b6b3c3c25398303334f",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2731e0dc5baaabda304b0ad1815ab67616d0000b273436e38032cf3389d01426ecaab67616d0000b2735140e9c2486249b280cb36fbab67616d0000b273e73b1b6b3c3c25398303334f",
+      "width" : 60
+    } ],
+    "name" : "modern",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MzMsNjNhMWM1MmUwNDU4OWJlMWNlYzg0NGQ2NjE0ZDQ2NGU2YmY2MGUwNQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0rQ1EjIYqDr2crdFV3udHU/tracks",
+      "total" : 32
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0rQ1EjIYqDr2crdFV3udHU"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/1ACplh9fSQP1BLFUo7bGPN"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/1ACplh9fSQP1BLFUo7bGPN",
+    "id" : "1ACplh9fSQP1BLFUo7bGPN",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27347a4209c23a9ec78acba428eab67616d0000b27355b5658c3d7c0715fc143069ab67616d0000b27380472fd65df42a5f1c7ca1a7ab67616d0000b273d60fd4c3a160fb989ae85a7b",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27347a4209c23a9ec78acba428eab67616d0000b27355b5658c3d7c0715fc143069ab67616d0000b27380472fd65df42a5f1c7ca1a7ab67616d0000b273d60fd4c3a160fb989ae85a7b",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27347a4209c23a9ec78acba428eab67616d0000b27355b5658c3d7c0715fc143069ab67616d0000b27380472fd65df42a5f1c7ca1a7ab67616d0000b273d60fd4c3a160fb989ae85a7b",
+      "width" : 60
+    } ],
+    "name" : "disco",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "NTQsMzhhZDY4NzlmNjc4Yzg3ZThlZDU4Y2FiMWYyNDg0YzVhOWYxYzIzYg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/1ACplh9fSQP1BLFUo7bGPN/tracks",
+      "total" : 55
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:1ACplh9fSQP1BLFUo7bGPN"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/5zasY7MCXw8M8QYTfBGRpT"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/5zasY7MCXw8M8QYTfBGRpT",
+    "id" : "5zasY7MCXw8M8QYTfBGRpT",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2733c534611bd3658006378a2d7ab67616d0000b2734448e36a9ef845b705d80a0dab67616d0000b2734516a5d74bac51f3afcba85aab67616d0000b273ef89c52c42eaf1f89347a16c",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2733c534611bd3658006378a2d7ab67616d0000b2734448e36a9ef845b705d80a0dab67616d0000b2734516a5d74bac51f3afcba85aab67616d0000b273ef89c52c42eaf1f89347a16c",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2733c534611bd3658006378a2d7ab67616d0000b2734448e36a9ef845b705d80a0dab67616d0000b2734516a5d74bac51f3afcba85aab67616d0000b273ef89c52c42eaf1f89347a16c",
+      "width" : 60
+    } ],
+    "name" : "olds",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTEsMDUzM2I0YzRmZjNlOGRkYTk5ZDIyYTM2NDQxYmQwYTBiYjYwZTY4MA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/5zasY7MCXw8M8QYTfBGRpT/tracks",
+      "total" : 30
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:5zasY7MCXw8M8QYTfBGRpT"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/3SMUtmbo94wzhhsaG9Xkjg"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/3SMUtmbo94wzhhsaG9Xkjg",
+    "id" : "3SMUtmbo94wzhhsaG9Xkjg",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2733e782d96dc4cbe7950a274a9ab67616d0000b2738996c3697ec3030efbd0a04fab67616d0000b27396753331ba4495c42f686004ab67616d0000b27398daeb6fc14ffafc7abaa4c6",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2733e782d96dc4cbe7950a274a9ab67616d0000b2738996c3697ec3030efbd0a04fab67616d0000b27396753331ba4495c42f686004ab67616d0000b27398daeb6fc14ffafc7abaa4c6",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2733e782d96dc4cbe7950a274a9ab67616d0000b2738996c3697ec3030efbd0a04fab67616d0000b27396753331ba4495c42f686004ab67616d0000b27398daeb6fc14ffafc7abaa4c6",
+      "width" : 60
+    } ],
+    "name" : "Rock Latino",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "OTAsMmE1OGY0NDVmMjQyNjZhMTI0NGU0N2IzMGYzZmViNmZkNDQ2N2YzZQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/3SMUtmbo94wzhhsaG9Xkjg/tracks",
+      "total" : 81
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:3SMUtmbo94wzhhsaG9Xkjg"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/2tfAIolOr6QvBgUvDVf1qD"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/2tfAIolOr6QvBgUvDVf1qD",
+    "id" : "2tfAIolOr6QvBgUvDVf1qD",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273182cfcd0cc42013557f64c89ab67616d0000b2732043dd3544a339547d04b436ab67616d0000b273308ccdc2a4be8fda99f739b6ab67616d0000b273c8e97cafeb2acb85b21a777e",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273182cfcd0cc42013557f64c89ab67616d0000b2732043dd3544a339547d04b436ab67616d0000b273308ccdc2a4be8fda99f739b6ab67616d0000b273c8e97cafeb2acb85b21a777e",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273182cfcd0cc42013557f64c89ab67616d0000b2732043dd3544a339547d04b436ab67616d0000b273308ccdc2a4be8fda99f739b6ab67616d0000b273c8e97cafeb2acb85b21a777e",
+      "width" : 60
+    } ],
+    "name" : "my music",
+    "owner" : {
+      "display_name" : "Edwin Taquichiri Montaño",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/taquimon"
+      },
+      "href" : "https://api.spotify.com/v1/users/taquimon",
+      "id" : "taquimon",
+      "type" : "user",
+      "uri" : "spotify:user:taquimon"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MjAxLGI1OTE2MmJmYTQ2MDRjZjYwMmFhZWU2MTUwNzhkZDZiYTdmNWIyNmM=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/2tfAIolOr6QvBgUvDVf1qD/tracks",
+      "total" : 175
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:2tfAIolOr6QvBgUvDVf1qD"
+  } ],
+  "limit" : 20,
+  "next" : null,
+  "offset" : 0,
+  "previous" : null,
+  "total" : 19
+}* Connection #1 to host api.spotify.com left intact
